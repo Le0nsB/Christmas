@@ -4,8 +4,8 @@ body {
     align-items: center;
     justify-content: center;
     font-family: cursive;
-    background-image: radial-gradient(circle, #420000,#240000 );
-    color: #ffffff;
+    background-image: radial-gradient(circle, #610101,#240000 );
+    color: #fffddc;
     height: 100%;
     
     
@@ -14,11 +14,11 @@ body {
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    background-color: #6b5656;
+    background-color: #6d5050;
     width: 30%;
     border: 6px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, red, green, red, green, red, green, red, green);
+    border-image-source: linear-gradient(45deg, red, green, red, green, red, green, red, green);
 }
 
 .cont{
@@ -31,12 +31,14 @@ body {
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     scale: 1.075;
-    animation: borderMove 1s linear infinite;
+    animation: borderMove 0.75s linear infinite;
+    
+    background-color: #8a6a6a;
 }
 
 @keyframes borderMove {
     50% {
-        border-image-source: linear-gradient(90deg, green, red, green, red, green, red, green, red);
+        border-image-source: linear-gradient(45deg, green, red, green, red, green, red, green, red);
     }
 }
   
