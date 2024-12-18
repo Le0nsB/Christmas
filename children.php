@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Children</title>
+    <link rel="stylesheet" href="styles_children.css">
 </head>
-<body>
-    
-</body>
-</html>
+<body> 
 <?php
 
 require("Database.php");
@@ -78,8 +75,9 @@ function getChildGifts($letterText, $gifts) {
 }
 ?>
 
+<div class="cont_bottom">
+    <img src="reindeer.png" class="bottom">
+</div>
 
-
-
-
-
+</body>
+</html>
