@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Children</title>
-    <link rel="stylesheet" href="styles_children.css">
+    <link rel="stylesheet" href="style_children.css">
 </head>
 <body> 
 <?php

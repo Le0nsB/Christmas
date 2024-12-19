@@ -7,7 +7,9 @@ body {
     background-image: linear-gradient(90deg, #240000, #610101,#240000 );
     color: #fffddc;
     height: 100%;
-    border: #4c8f40, solid;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg,#4c8f40,#0d2209, #4c8f40);
     border-width: 6px;
     border-radius: 2vh;
     padding-top: 3vh;
